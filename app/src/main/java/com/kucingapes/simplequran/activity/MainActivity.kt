@@ -1,4 +1,4 @@
-package com.kucingapes.simplequran
+package com.kucingapes.simplequran.activity
 
 import android.content.Context
 import android.content.Intent
@@ -6,13 +6,12 @@ import android.content.SharedPreferences
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.Toast
 import com.google.gson.Gson
+import com.kucingapes.simplequran.R
 import com.kucingapes.simplequran.model.*
 import com.kucingapes.simplequran.restapi.Client
 import com.kucingapes.simplequran.restapi.IClient
-import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

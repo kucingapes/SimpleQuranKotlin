@@ -1,8 +1,10 @@
-package com.kucingapes.simplequran
+package com.kucingapes.simplequran.activity
 
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.PagerSnapHelper
+import com.kucingapes.simplequran.R
+import com.kucingapes.simplequran.sharedPrefer.SharedList
 import com.kucingapes.simplequran.adapter.AdapterSlider
 import kotlinx.android.synthetic.main.activity_surat_slider.*
 

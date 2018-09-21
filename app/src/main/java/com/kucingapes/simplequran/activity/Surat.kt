@@ -1,9 +1,10 @@
-package com.kucingapes.simplequran
+package com.kucingapes.simplequran.activity
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
+import com.kucingapes.simplequran.R
+import com.kucingapes.simplequran.sharedPrefer.SharedList
 import com.kucingapes.simplequran.adapter.AdapterSurat
 import kotlinx.android.synthetic.main.activity_surat.*
 

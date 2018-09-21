@@ -1,4 +1,4 @@
-package com.kucingapes.simplequran
+package com.kucingapes.simplequran.sharedPrefer
 
 import android.content.Context
 import com.google.gson.Gson

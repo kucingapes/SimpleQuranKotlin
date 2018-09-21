@@ -1,9 +1,10 @@
-package com.kucingapes.simplequran
+package com.kucingapes.simplequran.activity
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.kucingapes.simplequran.R
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper
 

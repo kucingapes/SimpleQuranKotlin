@@ -8,7 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kucingapes.simplequran.R
-import com.kucingapes.simplequran.SuratSlider
+import com.kucingapes.simplequran.activity.SuratSlider
 import com.kucingapes.simplequran.model.mLSurat
 import com.kucingapes.simplequran.model.mNamaSurat
 import com.kucingapes.simplequran.model.mSurat

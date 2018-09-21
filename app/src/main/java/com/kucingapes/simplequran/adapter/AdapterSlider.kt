@@ -11,7 +11,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kucingapes.simplequran.R
-import com.kucingapes.simplequran.SharedList
+import com.kucingapes.simplequran.sharedPrefer.SharedList
 import com.kucingapes.simplequran.model.mNamaSurat
 import com.kucingapes.simplequran.model.mSurat
 import kotlinx.android.synthetic.main.item_slider.view.*
