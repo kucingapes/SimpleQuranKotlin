@@ -10,7 +10,6 @@ import android.support.v7.widget.Toolbar
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.kucingapes.simplequran.BaseActivity
 import com.kucingapes.simplequran.R
 import com.kucingapes.simplequran.SharedList
 import com.kucingapes.simplequran.model.mNamaSurat
