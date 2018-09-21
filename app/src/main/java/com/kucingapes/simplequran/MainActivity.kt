@@ -35,8 +35,7 @@ class MainActivity : AppCompatActivity() {
                 sharedPref!!.contains("title") &&
                 sharedPref!!.contains("literation")) {
 
-            Toast.makeText(baseContext, "ada", Toast.LENGTH_SHORT).show()
-            loadingbar.visibility = View.GONE
+            Toast.makeText(baseContext, "data oke", Toast.LENGTH_SHORT).show()
             startActivity(Intent(baseContext, Surat::class.java))
             finish()
 
@@ -45,13 +44,12 @@ class MainActivity : AppCompatActivity() {
             getDataBase(getQuranDB, quranClient)
         }
 
-
     }
 
     private fun getDataBase(getQuranDB: Call<mQuran>, quranClient: IClient) {
         getQuranDB.enqueue(object : Callback<mQuran> {
             override fun onFailure(call: Call<mQuran>, t: Throwable) {
-                Log.d("bangsat", t.message)
+                Log.d("bangke", t.message)
                 Toast.makeText(baseContext, "gagal", Toast.LENGTH_SHORT).show()
             }
 
