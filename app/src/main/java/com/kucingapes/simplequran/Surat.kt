@@ -7,7 +7,7 @@ import android.support.v7.widget.LinearLayoutManager
 import com.kucingapes.simplequran.adapter.AdapterSurat
 import kotlinx.android.synthetic.main.activity_surat.*
 
-class Surat : AppCompatActivity() {
+class Surat : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +24,5 @@ class Surat : AppCompatActivity() {
         recycler_surat.layoutManager = layoutManager
         recycler_surat.addItemDecoration(divider)
         recycler_surat.adapter = adapterSurat
-
-
     }
 }
